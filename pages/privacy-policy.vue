@@ -54,7 +54,7 @@ By using the App, you confirm that you have read and understood this Privacy Pol
 
 <template>
   <div>
-    <div class="p-5">
+    <div class="p-5 flex">
       <RouterLink to="/" class="inline-flex gap-1 items-center"><Icon name="tabler:square-chevron-left" size="1.5rem" />Go back</RouterLink>
     </div>
     <div class="p-5">
