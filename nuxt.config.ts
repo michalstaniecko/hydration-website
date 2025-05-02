@@ -11,4 +11,9 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxtjs/tailwindcss',
   ],
+
+  icon: {
+    mode: "css",
+    cssLayer: 'base'
+  }
 })

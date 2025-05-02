@@ -53,8 +53,13 @@ By using the App, you confirm that you have read and understood this Privacy Pol
 </script>
 
 <template>
-  <div class="p-5">
-    <div class="prose-sm md:prose lg:prose-lg" v-html="result"/>
+  <div>
+    <div class="p-5">
+      <RouterLink to="/" class="inline-flex gap-1 items-center"><Icon name="tabler:square-chevron-left" size="1.5rem" />Go back</RouterLink>
+    </div>
+    <div class="p-5">
+      <div class="prose-sm md:prose lg:prose-lg" v-html="result"/>
+    </div>
   </div>
 </template>
 
