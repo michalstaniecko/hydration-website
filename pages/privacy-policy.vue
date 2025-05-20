@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import markdownit from 'markdown-it';
 
+useSeoMeta({
+  robots: 'noindex, nofollow'
+})
+
 const md = markdownit();
 
 const result = md.render(`

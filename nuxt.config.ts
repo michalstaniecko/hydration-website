@@ -10,10 +10,18 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxt/fonts',
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/seo'
   ],
+
+  site: {
+    url: "https://hydration.ihumbak.website",
+    name: "Hydration Tracking Water App",
+    description: "Hydration Tracking Water App",
+    defaultLocale: 'en'
+  },
 
   icon: {
     mode: "css",
     cssLayer: 'base'
-  }
+  },
 })
